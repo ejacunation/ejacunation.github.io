@@ -54,6 +54,7 @@ a {
 }
 
 a::before {
+  font-family: 'ubuntu', sans-serif;
   content: ">";
   color: black;
   position:relative;
