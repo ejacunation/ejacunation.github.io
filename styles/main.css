@@ -1,0 +1,126 @@
+/* CSS by kryn - Copyright © 2020 */
+
+body {
+  background-image: url("assets/bg.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+div.footer {
+  opacity: 0.2;
+} 
+ 
+ footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+ }
+ 
+ hr{
+   margin: 10px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   border-color: #989898;
+   opacity: 0.2;
+  }
+
+img {
+  border-radius: 50%;
+  user-select: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   
+}
+
+a {
+  color: black;
+  font-family: 'Ubuntu', sans-serif;
+  transform: scale(2);
+  text-decoration: none;
+  position:relative;
+  transition: all 0.3s linear;
+   -webkit-transition: all 0.3s linear;
+   -moz-transition: all 0.3s linear;
+   user-select: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+}
+
+a::before {
+  content: ">";
+  color: black;
+  position:relative;
+  transition: all 0.3s linear;
+   -webkit-transition: all 0.3s linear;
+   -moz-transition: all 0.3s linear;
+   user-select: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+}
+
+a:hover:before {
+  padding-right: 5px;
+}
+
+a:hover {
+  color: #989898;
+   padding-left: 5px;
+}
+
+h1 {
+  user-select: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+  margin: 50px;
+  color: white;
+  font-family: 'Amatic SC', cursive;
+  font-size: 70px;
+  text-shadow: 0 0 25px black;
+  
+}
+p {
+  color: black;
+  font-family: 'Ubuntu', sans-serif;
+  user-select: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+}
+
+p.jp {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+a.jp {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+p.kr {
+  font-family: 'Nanum Gothic Coding', monospace;
+}
+
+a.kr {
+  font-family: 'Nanum Gothic Coding', monospace;
+}
+
+div.transbox {
+width: 600px;
+padding: 100px;
+border-radius: 20px;
+box-shadow: 0px 0px 60px -11px rgba(0,0,0,0.68);
+  margin: 50px;
+  background-color: rgba(255,255,255,.6);
+  position:relative;
+  align:center;
+}
