@@ -151,3 +151,28 @@ box-shadow: 0px 0px 60px -11px rgba(0,0,0,0.68);
   position:relative;
   align:center;
 }
+
+/* half desktop screen */
+@media (max-width: 900px) {
+  div.transbox {
+    width: 100%;
+    padding: 0;
+    padding-top: 85px;
+    padding-bottom: 85px;
+    margin: 0;
+  }
+}
+
+/* smartphone */
+@media (max-width: 550px) {
+  h1 {
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 50px;
+  }
+  img.dev {
+    width: 100px;
+    margin:10px;
+  }
+}
