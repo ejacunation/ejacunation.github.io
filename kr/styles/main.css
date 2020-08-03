@@ -159,6 +159,16 @@ p.jp {
   font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
+a img {
+  transition: all 0.2s linear;
+}
+
+a img:hover {
+  position: relative; 
+  transition: all 0.2s linear;
+  transform: scale(1.05) 
+} 
+
 a.jp {
   font-family: 'M PLUS Rounded 1c', sans-serif;
   transform: scale(2);
