@@ -90,6 +90,31 @@ h1 {
   text-shadow: 0 0 25px black;
   
 }
+
+h2 {
+  user-select: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+  margin: 10px;
+  color: black;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 70px;
+}
+
+h3 {
+  user-select: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+  margin: 20px;
+  color: black;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+}
+
 p {
   color: black;
   font-family: 'Ubuntu', sans-serif;
