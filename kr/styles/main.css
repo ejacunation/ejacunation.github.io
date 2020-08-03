@@ -1,5 +1,9 @@
 /* CSS by kryn - Copyright © 2020 */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-image: url("assets/bg.png");
   background-repeat: no-repeat;
@@ -37,6 +41,10 @@ img {
    
 }
 
+img.dev {
+  margin:20px;
+}
+
 a {
   color: black;
   font-family: 'Ubuntu', sans-serif;
@@ -53,7 +61,7 @@ a {
    -ms-user-select: none;
 }
 
-a::before {
+a.link::before {
   font-family: 'ubuntu', sans-serif;
   content: ">";
   color: black;
@@ -68,13 +76,35 @@ a::before {
    -ms-user-select: none;
 }
 
-a:hover:before {
+a.link:hover:before {
   padding-right: 5px;
 }
 
-a:hover {
+a.link:hover {
   color: #989898;
    padding-left: 5px;
+}
+
+a.button {
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size:70;
+  transform: scale(2);
+  text-decoration: none;
+  position:relative;
+  transition: all 0.3s linear;
+   -webkit-transition: all 0.3s linear;
+   -moz-transition: all 0.3s linear;
+   user-select: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   text-shadow: 0 0 25px #4e4e4e;
+}
+
+a.button:hover {
+  color: #c7c7c7;
 }
 
 h1 {
@@ -90,6 +120,31 @@ h1 {
   text-shadow: 0 0 25px black;
   
 }
+
+h2 {
+  user-select: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+  margin: 10px;
+  color: black;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
+}
+
+h3 {
+  user-select: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+  margin: 20px;
+  color: black;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+}
+
 p {
   color: black;
   font-family: 'Ubuntu', sans-serif;
@@ -106,6 +161,41 @@ p.jp {
 
 a.jp {
   font-family: 'M PLUS Rounded 1c', sans-serif;
+  transform: scale(2);
+  text-decoration: none;
+  position:relative;
+  transition: all 0.3s linear;
+   -webkit-transition: all 0.3s linear;
+   -moz-transition: all 0.3s linear;
+   user-select: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+}
+
+a.jp::before {
+  font-family: 'ubuntu', sans-serif;
+  content: ">";
+  color: black;
+  position:relative;
+  transition: all 0.3s linear;
+   -webkit-transition: all 0.3s linear;
+   -moz-transition: all 0.3s linear;
+   user-select: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+}
+
+a.jp:hover:before {
+  padding-right: 5px;
+}
+
+a.jp:hover {
+  color: #989898;
+   padding-left: 5px;
 }
 
 p.kr {
@@ -114,6 +204,41 @@ p.kr {
 
 a.kr {
   font-family: 'Nanum Gothic Coding', monospace;
+  transform: scale(2);
+  text-decoration: none;
+  position:relative;
+  transition: all 0.3s linear;
+   -webkit-transition: all 0.3s linear;
+   -moz-transition: all 0.3s linear;
+   user-select: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+}
+
+a.kr::before {
+  font-family: 'ubuntu', sans-serif;
+  content: ">";
+  color: black;
+  position:relative;
+  transition: all 0.3s linear;
+   -webkit-transition: all 0.3s linear;
+   -moz-transition: all 0.3s linear;
+   user-select: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+}
+
+a.kr:hover:before {
+  padding-right: 5px;
+}
+
+a.kr:hover {
+  color: #989898;
+   padding-left: 5px;
 }
 
 div.transbox {
