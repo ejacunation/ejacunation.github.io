@@ -32,11 +32,6 @@ div.footer {
 
 img {
   border-radius: 50%;
-  user-select: none;
-   -webkit-user-select: none;
-   -khtml-user-select: none;
-   -moz-user-select: none;
-   -ms-user-select: none;
    box-shadow: 0px 0px 60px -11px rgba(0,0,0,0.40);
    
 }
@@ -54,11 +49,6 @@ a {
   transition: all 0.3s linear;
    -webkit-transition: all 0.3s linear;
    -moz-transition: all 0.3s linear;
-   user-select: none;
-   -webkit-user-select: none;
-   -khtml-user-select: none;
-   -moz-user-select: none;
-   -ms-user-select: none;
 }
 
 a.link::before {
@@ -69,11 +59,6 @@ a.link::before {
   transition: all 0.3s linear;
    -webkit-transition: all 0.3s linear;
    -moz-transition: all 0.3s linear;
-   user-select: none;
-   -webkit-user-select: none;
-   -khtml-user-select: none;
-   -moz-user-select: none;
-   -ms-user-select: none;
 }
 
 a.link:hover:before {
@@ -95,11 +80,6 @@ a.button {
   transition: all 0.3s linear;
    -webkit-transition: all 0.3s linear;
    -moz-transition: all 0.3s linear;
-   user-select: none;
-   -webkit-user-select: none;
-   -khtml-user-select: none;
-   -moz-user-select: none;
-   -ms-user-select: none;
    text-shadow: 0 0 25px #4e4e4e;
 }
 
@@ -108,11 +88,6 @@ a.button:hover {
 }
 
 h1 {
-  user-select: none;
-   -webkit-user-select: none;
-   -khtml-user-select: none;
-   -moz-user-select: none;
-   -ms-user-select: none;
   margin: 50px;
   color: white;
   font-family: 'Amatic SC', cursive;
@@ -122,11 +97,6 @@ h1 {
 }
 
 h2 {
-  user-select: none;
-   -webkit-user-select: none;
-   -khtml-user-select: none;
-   -moz-user-select: none;
-   -ms-user-select: none;
   margin: 10px;
   color: black;
   font-family: 'Ubuntu', sans-serif;
@@ -134,11 +104,6 @@ h2 {
 }
 
 h3 {
-  user-select: none;
-   -webkit-user-select: none;
-   -khtml-user-select: none;
-   -moz-user-select: none;
-   -ms-user-select: none;
   margin: 20px;
   color: black;
   font-family: 'Ubuntu', sans-serif;
@@ -148,11 +113,6 @@ h3 {
 p {
   color: black;
   font-family: 'Ubuntu', sans-serif;
-  user-select: none;
-   -webkit-user-select: none;
-   -khtml-user-select: none;
-   -moz-user-select: none;
-   -ms-user-select: none;
 }
 
 p.jp {
@@ -177,11 +137,6 @@ a.jp {
   transition: all 0.3s linear;
    -webkit-transition: all 0.3s linear;
    -moz-transition: all 0.3s linear;
-   user-select: none;
-   -webkit-user-select: none;
-   -khtml-user-select: none;
-   -moz-user-select: none;
-   -ms-user-select: none;
 }
 
 a.jp::before {
@@ -192,11 +147,6 @@ a.jp::before {
   transition: all 0.3s linear;
    -webkit-transition: all 0.3s linear;
    -moz-transition: all 0.3s linear;
-   user-select: none;
-   -webkit-user-select: none;
-   -khtml-user-select: none;
-   -moz-user-select: none;
-   -ms-user-select: none;
 }
 
 a.jp:hover:before {
@@ -220,11 +170,6 @@ a.kr {
   transition: all 0.3s linear;
    -webkit-transition: all 0.3s linear;
    -moz-transition: all 0.3s linear;
-   user-select: none;
-   -webkit-user-select: none;
-   -khtml-user-select: none;
-   -moz-user-select: none;
-   -ms-user-select: none;
 }
 
 a.kr::before {
@@ -235,11 +180,6 @@ a.kr::before {
   transition: all 0.3s linear;
    -webkit-transition: all 0.3s linear;
    -moz-transition: all 0.3s linear;
-   user-select: none;
-   -webkit-user-select: none;
-   -khtml-user-select: none;
-   -moz-user-select: none;
-   -ms-user-select: none;
 }
 
 a.kr:hover:before {
@@ -260,6 +200,14 @@ box-shadow: 0px 0px 60px -11px rgba(0,0,0,0.68);
   background-color: rgba(255,255,255,.6);
   position:relative;
   align:center;
+}
+
+.non-interactable {
+   user-select: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
 }
 
 /* half desktop screen */
