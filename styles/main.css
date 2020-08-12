@@ -195,6 +195,12 @@ a.kr::before {
   -moz-transition: all 0.3s linear;
 }
 
+a.link::before,
+a.jp::before,
+a.kr::before {
+  font-family: "Ubuntu", sans-serif;
+}
+
 /* half desktop screen */
 @media (max-width: 900px) {
   div.transbox {
