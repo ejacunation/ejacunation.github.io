@@ -108,12 +108,12 @@ p.jp {
 }
 
 a img {
-  transition: all 0.2s linear;
+  transition: all 0.2s cubic-bezier(.1, 0, .1, 1);
 }
 
 a img:hover {
   position: relative;
-  transition: all 0.2s linear;
+  transition: all 0.2s cubic-bezier(.1, 0, .1, 1);
   transform: scale(1.05);
 }
 
@@ -190,9 +190,9 @@ a.jp,
 a.jp::before,
 a.kr,
 a.kr::before {
-  transition: all 0.3s linear;
-  -webkit-transition: all 0.3s linear;
-  -moz-transition: all 0.3s linear;
+  transition: all 0.3s cubic-bezier(.1, 0, .1, 1);
+  -webkit-transition: all 0.3s cubic-bezier(.1, 0, .1, 1);
+  -moz-transition: all 0.3s cubic-bezier(.1, 0, .1, 1);
 }
 
 a.link::before,
@@ -220,6 +220,7 @@ a.kr::before {
     margin-bottom: 30px;
     font-size: 50px;
   }
+
   img.dev {
     width: 100px;
     margin: 10px;
