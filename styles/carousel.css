@@ -1,0 +1,79 @@
+/*
+CSS code specific for building carousels
+tutorial: https://medium.com/@marcusmichaels/how-to-build-a-carousel-from-scratch-in-vanilla-js-9a096d3b98c9
+*/
+
+.carousel-wrapper {
+    overflow: hidden;
+    width: 90%;
+}
+.carousel-wrapper * {
+    box-sizing: border-box;
+}
+.carousel {
+    transform-style: preserve-3d;
+}
+
+/* This is the kind of fix I have to make because of you... */
+img.carousel-pic {
+  border-radius: 4%;
+  box-shadow: none;
+}
+.carousel-pic {
+    opacity: 0;
+
+    /* allow divs to stak on top of each other */
+    position: absolute;
+    top : 0;
+    left: 0;
+
+    width: 100%;
+    margin: auto;
+    padding: 1rem, 4rem;
+    z-index: 100;
+
+    /* Transition time for the effect */
+    transition: transform 1.0s, opacity 1.0s, z-index 1.0s;
+}
+.carousel-pic.active {
+    opacity: 1;
+    position: relative;
+    z-index: 300;
+}
+
+.carousel-pic.next,
+.carousel-pic.prev {
+    z-index: 200;
+}
+
+.carousel-pic.next {
+    transform: translateX(100%); /* Move item to the right */
+}
+.carousel-pic.prev {
+    transform: translateX(-100%); /* Move item to the left */
+}
+
+
+.carousel-btn.carousel-next,
+.carousel-btn.carousel-prev {
+    position:  absolute;
+    top: 50%;
+    width : 3rem;
+    height: 3rem;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 400;
+
+    /* Cool font effect for the carets */
+    margin: 0;
+    color: white;
+    font-family: "Amatic SC", cursive;
+    font-size: 70px;
+    text-shadow: 0 0 25px black;
+}
+.carousel-btn.carousel-next {right: 0;}
+.carousel-btn.carousel-prev {left : 0;}
+
+/*.carousel-btn.carousel-prev,
+.carousel-btn.carousel-next {
+}*/
