@@ -47,13 +47,13 @@
 		<title>
 			Ejacunation - Homepage
 		</title>
-	</head>
-	<body class="non-interactable" id="langswitch">
-    <center class="non-interactable">
+		<center class="non-interactable">
 			<h1>
 				e j a c u n a t i o n
 			</h1>
 		</center>
+	</head>
+	<body class="non-interactable">
 		<center>
 			<div class="transbox">
 				<img draggable="false" onmousedown="return false" style="user-drag: none" src="assets/avatar.webp" alt="Ejacunation server avatar.">
@@ -78,18 +78,18 @@
 				</p>
 				<p>
 				</p>
-				<span class="jp" id="jp">
+				<a class="jp" href="https://ejacunation.github.io/jp">
 					日本語
-        </span>
+				</a>
 				<p>
 				</p>
-				<span class="kr" id="kr">
+				<a class="kr" href="https://ejacunation.github.io/kr">
 					한국어
-        </span>
+				</a>
 			</div>
 			<p>
 				<h2>
-					<a class="button" draggable="false" onmousedown="window.scrollTo({ top: window.pageYOffset + document.getElementById('section2').getBoundingClientRect().top })" style="user-drag: none">
+					<a class="button" draggable="false" onmousedown="window.scrollTo({ top: window.pageYOffset + document.getElementById(`section2`).getBoundingClientRect().top })" style="user-drag: none">
 						&#9013;
 					</a>
 				</h2>
@@ -118,226 +118,5 @@
 				</p>
 			</center>
 		</div>
-  </body>
-  <script>
-    let enbody = `
-    <center class="non-interactable">
-			<h1>
-				e j a c u n a t i o n
-			</h1>
-    </center>
-    <center>
-			<div class="transbox">
-				<img draggable="false" onmousedown="return false" style="user-drag: none" src="assets/avatar.webp" alt="Ejacunation server avatar.">
-				<p>
-					Welcome to Ejacunation, the best Discord server on the planet.
-				</p>
-				<p>
-				</p>
-				<p>
-					<i>“Existence is temporary, Ejacunation is forever„</i>
-				</p>
-				<hr>
-				<a class="link" href="https://discord.gg/N3mHtrm">
-					Discord
-				</a>
-				<p>
-				</p>
-				<p>
-				<a class="link" href="https://twitter.com/Ejacunation">
-					Twitter
-				</a>
-				</p>
-				<p>
-				</p>
-				<span class="jp" id="jp">
-					日本語
-        </span>
-				<p>
-				</p>
-				<span class="kr" id="kr">
-					한국어
-        </span>
-			</div>
-			<p>
-				<h2>
-					<a class="button" draggable="false" onmousedown="window.scrollTo({ top: window.pageYOffset + document.getElementById('section2').getBoundingClientRect().top })" style="user-drag: none">
-						&#9013;
-					</a>
-				</h2>
-			</p>
-			<p>
-				&nbsp;
-			</p>
-			<h1>
-				d e v e l o p e r s
-			</h1>
-			<div class="transbox" align="center" id="section2">
-				<a href="https://www.ejacunation.moe/kryn">
-					<img draggable="false" onmousedown="return false" style="user-drag: none" class="dev" src="assets/kryn.webp" alt="avatar for kryn">
-				</a>
-				<a href="https://www.ejacunation.moe/rawrneru">
-					<img draggable="false" onmousedown="return false" style="user-drag: none" class="dev" src="assets/rawrneru.webp" alt="avatar for rawrneru">
-				</a>
-			<p>kryn &nbsp;・&nbsp; rawrneru</p>
-			</div>
-		</center>
-		<div class="footer">
-			<center>
-				<p>
-					Copyright &copy; 2020 Ejacunation<br>
-					in collaboration with rawrneru&reg; works
-				</p>
-			</center>
-    </div>`;
-    
-    let jpbody = `
-    <center class="non-interactable">
-			<h1>
-				e j a c u n a t i o n
-			</h1>
-    </center>
-    <center>
-			<div class="transbox">
-				<img draggable="false" onmousedown="return false" style="user-drag: none" src="assets/avatar.webp" alt="Ejacunation server avatar.">
-				<p class="jp">
-					ようこそ、えやくねぇしょんへ！天下一のディスコードサーバー！
-				</p>
-				<p class="jp">
-					「存在は一時的、えやくねぇしょん不朽だ。」
-				</p>
-				<hr>
-				<a href="https://discord.gg/N3mHtrm" class="jp">
-					ディスコード
-				</a>
-				<p>
-				</p>
-				<p>
-				<a href="https://twitter.com/Ejacunation" class="jp">
-					ツイッター
-				</a>
-				<p>
-				</p>
-				<span class="link" id="en">
-					English
-				</span>
-				<p>
-				</p>
-				<span class="kr" id="kr">
-					한국어
-				</span>
-			</div>
-			<p>
-				<h2>
-					<a class="button" draggable="false" onmousedown="window.scrollTo({ top: window.pageYOffset + document.getElementById('section2').getBoundingClientRect().top })" style="user-drag: none">
-						&#9013;
-					</a>
-				</h2>
-			</p>
-			<p>
-				&nbsp;
-			</p>
-			<h1>
-				d e v e l o p e r s
-			</h1>
-			<div class="transbox" align="center" id="section2">
-				<a href="https://www.ejacunation.moe/kryn">
-					<img draggable="false" onmousedown="return false" style="user-drag: none" class="dev" src="assets/kryn.webp" alt="avatar for kryn">
-				</a>
-				<a href="https://www.ejacunation.moe/rawrneru">
-					<img draggable="false" onmousedown="return false" style="user-drag: none" class="dev" src="assets/rawrneru.webp" alt="avatar for rawrneru">
-				</a>
-			<p>kryn &nbsp;・&nbsp; rawrneru</p>
-			</div>
-		</center>
-		<div class="non-interactable footer">
-			<center>
-				<p>
-					Copyright &copy; 2020 Ejacunation<br>
-					in collaboration with rawrneru&reg; works
-				</p>
-			</center>
-    </div>`;
-    let krbody = `
-    <center class="non-interactable">
-			<h1>
-				e j a c u n a t i o n
-			</h1>
-    </center>
-    <center>
-			<div class="transbox">
-				<img draggable="false" onmousedown="return false" style="user-drag: none" src="assets/avatar.webp" alt="Ejacunation server avatar.">
-				<p class="kr">
-					우리 행성 최고의 디스코드 서버, 이쟈큐네이션에 온걸 환영합니다.
-				</p>
-				<p class="kr">
-					<i>"존재는 일시적이지만, 이쟈큐네이션은 영원하다„</i>
-				</p>
-				<hr>
-				<a href="https://discord.gg/N3mHtrm" class="kr">
-					디스코드
-				</a>
-				<p>
-				</p>
-				<p>
-				<a href="https://twitter.com/Ejacunation" class="kr">
-					트위터
-				</a>
-				<p>
-				</p>
-				<span class="link" id="en">
-					English
-				</span>
-				<p>
-				</p>
-				<span class="jp" id="jp">
-					日本語
-				</span>
-				<p>
-				</p>
-			</div>
-			<p>
-				<h2>
-					<a class="button" draggable="false" onmousedown="window.scrollTo({ top: window.pageYOffset + document.getElementById('section2').getBoundingClientRect().top })" style="user-drag: none">
-						&#9013;
-					</a>
-				</h2>
-			</p>
-			<p>
-				&nbsp;
-			</p>
-			<h1>
-				d e v e l o p e r s
-			</h1>
-			<div class="transbox" align="center" id="section2">
-				<a href="https://www.ejacunation.moe/kryn">
-					<img draggable="false" onmousedown="return false" style="user-drag: none" class="dev" src="assets/kryn.webp" alt="avatar for kryn">
-				</a>
-				<a href="https://www.ejacunation.moe/rawrneru">
-					<img draggable="false" onmousedown="return false" style="user-drag: none" class="dev" src="assets/rawrneru.webp" alt="avatar for rawrneru">
-				</a>
-			<p>kryn &nbsp;・&nbsp; rawrneru</p>
-			</div>
-		</center>
-		<div class="non-interactable footer">
-			<center>
-				<p>
-					Copyright &copy; 2020 Ejacunation<br>
-					in collaboration with rawrneru&reg; works
-				</p>
-			</center>
-    </div>`;
-
-    document.addEventListener("mousedown", (element) => {
-      let en = document.getElementById("en");
-      let jp = document.getElementById("jp");
-      let kr = document.getElementById("kr");
-
-      let site = document.getElementById("langswitch");
-
-      if (element.target == en) return site.innerHTML = enbody;
-      else if (element.target == jp) return site.innerHTML = jpbody;
-      else if (element.target == kr) return site.innerHTML = krbody;
-    })
-  </script>
+	</body>
 </html>
