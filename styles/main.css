@@ -1,4 +1,4 @@
-/* CSS by kryn - Copyright © 2020 */
+/* CSS by kryn - Copyright © 2021 */
 
 html {
   scroll-behavior: smooth;
@@ -104,7 +104,7 @@ p {
 }
 
 p.jp {
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "M PLUS Rounded 1c", sans-serif;
 }
 
 a img {
@@ -118,7 +118,7 @@ a img:hover {
 }
 
 a.jp {
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "M PLUS Rounded 1c", sans-serif;
   transform: scale(2);
   text-decoration: none;
   position: relative;
