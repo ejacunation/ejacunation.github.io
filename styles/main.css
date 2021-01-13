@@ -1,4 +1,4 @@
-/* CSS by kryn - Copyright © 2021 */
+/* CSS by kryn - Copyright © 2020 */
 
 html {
   scroll-behavior: smooth;
@@ -41,29 +41,29 @@ img.dev {
   margin: 20px;
 }
 
-a, span {
+a {
   color: black;
   transform: scale(2);
   text-decoration: none;
   position: relative;
 }
 
-a.link::before, span::before {
+a.link::before {
   content: ">";
   color: black;
   position: relative;
 }
 
-a.link:hover:before, span:hover:before {
+a.link:hover:before {
   padding-right: 5px;
 }
 
-a.link:hover, span:hover {
+a.link:hover {
   color: #989898;
   padding-left: 5px;
 }
 
-a.button, span.button {
+a.button {
   color: white;
   font-family: Arial, sans-serif;
   font-size: 70;
@@ -73,7 +73,7 @@ a.button, span.button {
   text-shadow: 0 0 25px #4e4e4e;
 }
 
-a.button:hover, span.button:hover {
+a.button:hover {
   color: #c7c7c7;
 }
 
@@ -117,24 +117,24 @@ a img:hover {
   transform: scale(1.05);
 }
 
-span.jp {
+a.jp {
   font-family: "M PLUS Rounded 1c", sans-serif;
   transform: scale(2);
   text-decoration: none;
   position: relative;
 }
 
-span.jp::before {
+a.jp::before {
   content: ">";
   color: black;
   position: relative;
 }
 
-span.jp:hover:before {
+a.jp:hover:before {
   padding-right: 5px;
 }
 
-span.jp:hover {
+a.jp:hover {
   color: #989898;
   padding-left: 5px;
 }
@@ -143,24 +143,24 @@ p.kr {
   font-family: "Nanum Gothic Coding", monospace;
 }
 
-span.kr {
+a.kr {
   font-family: "Nanum Gothic Coding", monospace;
   transform: scale(2);
   text-decoration: none;
   position: relative;
 }
 
-span.kr::before {
+a.kr::before {
   content: ">";
   color: black;
   position: relative;
 }
 
-span.kr:hover:before {
+a.kr:hover:before {
   padding-right: 5px;
 }
 
-span.kr:hover {
+a.kr:hover {
   color: #989898;
   padding-left: 5px;
 }
@@ -186,18 +186,18 @@ div.transbox {
 a,
 a.link::before,
 a.button,
-span.jp,
-span.jp::before,
-span.kr,
-span.kr::before {
+a.jp,
+a.jp::before,
+a.kr,
+a.kr::before {
   transition: all 0.3s cubic-bezier(.1, 0, .1, 1);
   -webkit-transition: all 0.3s cubic-bezier(.1, 0, .1, 1);
   -moz-transition: all 0.3s cubic-bezier(.1, 0, .1, 1);
 }
 
 a.link::before,
-span.jp::before,
-span.kr::before {
+a.jp::before,
+a.kr::before {
   font-family: "Ubuntu", sans-serif;
 }
 
