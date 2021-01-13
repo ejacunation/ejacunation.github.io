@@ -104,7 +104,7 @@ p {
 }
 
 p.jp {
-  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 a img {
@@ -118,7 +118,7 @@ a img:hover {
 }
 
 a.jp {
-  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   transform: scale(2);
   text-decoration: none;
   position: relative;
