@@ -12,6 +12,8 @@
   			gtag('config', 'UA-174502127-1');
 		</script>
 
+		<script src="js/cleanurl.js"></script>
+
 		<!--Twitter card shit-->
 		<meta name="twitter:card" content="summary">
 		<meta name="twitter:title" content="Ejacunation">
@@ -26,7 +28,7 @@
 		<meta name="og:description" content="Ejacunation is possibly the greatest Discord server that has ever been created. Existence is temporary, Ejacunation is forever.">
 		<meta name="og:image" content="https://raw.githubusercontent.com/ejacunation/ejacunation.github.io/master/assets/avatar.webp">
 		<meta name="og:site_name" content="Ejacunation">
-		<!--------------------->		
+		<!--------------------->
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1.00001,viewport-fit=cover"/>
 		<meta charset="UTF-8">
 		<meta name="description" content="Ejacunation is possibly the greatest Discord server that has ever been created. Existence is temporary, Ejacunation is forever.">
@@ -34,14 +36,14 @@
 		<meta name="keywords" content="ejacunation, twitter, discord">
 		<meta name="author" content="ejacunation">
 		<meta http-equiv="Expires" content="600" />
-		<link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet"/> 
+		<link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet"/>
 		<link rel="stylesheet" href="styles/main.css">
 		<link href="https://fonts.googleapis.com/css?family=Ubuntu:300&display=swap" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap"> 
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap">
 
 		<link rel="icon" href="assets/favicon.png" type="image/x-icon"/>
 		<link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon"/>
-		
+
 		<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
 		<title>
@@ -89,7 +91,7 @@
 			</div>
 			<p>
 				<h2>
-					<a class="button" href="#section2" draggable="false" onmousedown="return false" style="user-drag: none">
+					<a class="button cleanurl" href="#section2" draggable="false" onmousedown="return false" style="user-drag: none">
 						&#9013;
 					</a>
 				</h2>
@@ -118,5 +120,11 @@
 				</p>
 			</center>
 		</div>
+
+		<script>
+			// clean up behavior for tags with cleanurl class
+			let cleanurls = document.getElementsByClassName('cleanurl');
+			for (let i in cleanurls) redefineEvent(cleanurls[i]);
+		</script>
 	</body>
 </html>
